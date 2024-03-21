@@ -45,6 +45,7 @@ body {
     border: none;
     transition: transform 0.3s ease-in-out;
     background-color: #edebe9;
+    padding: 5%;
   }
   
   .card:hover {
@@ -95,7 +96,7 @@ body {
   justify-content: space-around;
   grid-template-columns: 30% 1fr 1fr 0.5fr;
   font-size: 30px; 
-  margin: 0 5%;
+  margin: 0% 5% 0% 0%;
   padding: 2%;
 }
 
@@ -152,4 +153,11 @@ body {
   }
   .titles{
     display: flex;
+  }
+  .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .pro{
+    padding: 5%;
   }
