@@ -52,10 +52,11 @@ body {
     transform: translateY(-5px);
   }
   
-  .card-img-top {
+  .card-body img {
+    
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
-    
+    padding-bottom: 2%;
   }
   
   .card-title {
@@ -154,10 +155,43 @@ body {
   .titles{
     display: flex;
   }
-  .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
   .pro{
     padding: 5%;
+  }
+  .cont{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 38%;
+  }
+  .continp{
+    width:400px;
+    height: 50px;
+    border:none;
+    outline: none;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+    padding-left: 25px;
+    margin: 2%;
+  }
+  .cont textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+  }
+  .continp:focus{
+    border:3px solid #f6ce05
+  }
+  .cont button{
+    padding: 15px 30px;
+    font-size: 16px;
+    gap:10px;
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-top: 2%;
+    cursor: pointer;
+    background-color: #697c90;
   }
