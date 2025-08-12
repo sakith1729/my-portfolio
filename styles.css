@@ -1,4 +1,4 @@
-
+/* Global styles */
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +45,7 @@ body {
   padding-right: 15px;
 }
 
+/* Section styles */
 h2 {
   margin-bottom: 30px;
   font-size: 2.5rem;
@@ -53,7 +54,7 @@ h2 {
   text-align: center;
 }
 
-
+/* Welcome Section */
 #welcome {
   padding: 270px 5% 300px 5%; /* Adjusted for navbar height */
   background-color: #e8e7e8;
@@ -72,6 +73,7 @@ h2 {
   margin: 0 auto;
 }
 
+/* About/Skills Section - FIXED LAYOUT */
 .main {
   width: 100%;
 }
@@ -104,6 +106,7 @@ h2 {
   gap: 40px;
 }
 
+/* Skills Grid - FIXED TO USE FULL WIDTH */
 .container-icons {
   width: 100%;
   display: grid;
@@ -133,6 +136,7 @@ h2 {
   text-align: center;
 }
 
+/* Certificates Section - FIXED LAYOUT */
 .certificates {
   width: 100%;
   max-width: 800px;
@@ -167,6 +171,7 @@ h2 {
   font-size: 1.2rem;
 }
 
+/* Projects Section */
 #project {
   padding: 60px 5%;
   background-color: rgb(173, 165, 153);
@@ -238,6 +243,7 @@ h2 {
   text-decoration: none;
 }
 
+/* Contact Section */
 #contact {
   color: #ffffff;
   text-align: center;
@@ -320,6 +326,7 @@ h2 {
   background-color: #5a6c7f;
 }
 
+/* MOBILE RESPONSIVE STYLES */
 @media (max-width: 768px) {
   /* Navbar mobile adjustments */
   .navbar img {
